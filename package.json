@@ -1,0 +1,26 @@
+{
+  "name": "patiente-back",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "ts-node server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "prisma": "^6.6.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
