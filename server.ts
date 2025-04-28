@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express"
-import { PrismaClient, VitalSigns } from "@prisma/client"
+import { PrismaClient } from "@prisma/client"
 import cors from "cors"
 
 // Inicializar o Express e o Prisma
